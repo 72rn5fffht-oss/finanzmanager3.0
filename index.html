@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Finanzmanager</title>
+</head>
+<body>
+  <h2>Finanzmanager</h2>
+
+  <label>Einnahmen (monatlich in EUR):</label>
+  <input id="ein" type="number" step="0.01"><br><br>
+
+  <label>Ausgaben (monatlich in EUR):</label>
+  <input id="aus" type="number" step="0.01"><br><br>
+
+  <label>Rentenanpassung / Erhöhung in % pro Jahr:</label>
+  <input id="rent" type="number" step="0.01"><br><br>
+
+  <button onclick="berechnen()">Berechnen</button>
+
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
